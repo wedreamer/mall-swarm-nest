@@ -1,73 +1,55 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# mall-swarm-nest
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+[mall-swarm](https://www.macrozheng.com) Node 版本, 基于 [Nest](https://nestjs.com), DDD 实践参考 [Abp](https://abp.io).
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+## 相关计划
 
-## Description
+- [ ] 商品模块
+  - [ ] 商品管理
+  - [ ] 商品分类管理
+  - [ ] 商品类型管理
+  - [ ] 品牌管理
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+- [ ] 订单模块
+  - [ ] 订单管理
+  - [ ] 订单设置
+  - [ ] 退货申请处理
+  - [ ] 退货原因设置
 
-## Installation
+- [ ] 营销模块
+  - [ ] 秒杀活动管理
+  - [ ] 优惠价管理
+  - [ ] 品牌推荐管理
+  - [ ] 新品推荐管理
+  - [ ] 人气推荐管理
+  - [ ] 专题推荐管理
+  - [ ] 首页推荐管理
 
-```bash
-$ npm install
-```
+## 数据库
 
-## Running the app
+- mysql
+- mongodb
 
-```bash
-# development
-$ npm run start
+## 基础设施
+> 参考 Abp, [相关文档](https://docs.abp.io/zh-Hans/abp/latest/Background-Jobs)
+- [ ] 后台服务
+- [ ] 事件总线
+- [ ] 种子数据
+- [ ] 分布式锁
+- [ ] 虚拟文件系统
+- [ ] 审计日志
+- [ ] 数据过滤
+- [ ] 当前用户
+- [ ] 对象到对象的映射
+- [ ] 邮件发送
+- [ ] BLOB 存储
+- [ ] 文本模板
+- [ ] GUID 生成
+- [ ] 时钟
 
-# watch mode
-$ npm run start:dev
+## 架构
 
-# production mode
-$ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+- 模块化
+- 领域驱动设计
+- 多租户
+- 微服务架构
