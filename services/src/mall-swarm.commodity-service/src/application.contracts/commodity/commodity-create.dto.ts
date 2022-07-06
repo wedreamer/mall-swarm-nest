@@ -1,11 +1,11 @@
-import { CommodityDto } from './commodity.dto';
+import { CreateCommodityDto } from './commodity.dto';
 import { CommodityAttributeValueDto } from './commodityAttributeValue.dto';
 import { CommodityFullReductionDto } from './commodityFullReduction.dto';
 import { CommodityLadderDto } from './commodityLadder.dto';
 import { CommodityPriceDto } from './commodityPrice.dto';
 import { CommoditySkuStockDto } from './commoditySkuStock.dto';
 
-export class CommodityParamDto extends CommodityDto {
+export class CommodityParamDto extends CreateCommodityDto {
     private readonly commodityLadders: CommodityLadderDto[];
     // 商品阶梯价格设置
     private readonly productLadderList: CommodityLadderDto[];

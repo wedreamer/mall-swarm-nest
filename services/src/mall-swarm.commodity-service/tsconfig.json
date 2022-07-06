@@ -20,7 +20,22 @@
     "paths": {
       "@shared/*": [
         "../../../shared/*"
-      ]
+      ],
+      "@application/*": [
+        "src/application/*"
+      ],
+      "@application-contracts/*": [
+        "src/application.contracts/*"
+      ],
+      "@domain/*": [
+        "src/domain/*"
+      ],
+      "@domain-shared/*": [
+        "src/domain-shared/*"
+      ],
+      "@orm-typeorm/*": [
+        "src/typeorm*"
+      ],
     }
   },
   "include": [
